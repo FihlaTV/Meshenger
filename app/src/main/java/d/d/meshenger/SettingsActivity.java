@@ -1,29 +1,23 @@
 package d.d.meshenger;
 
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
-import android.net.Uri;
-import android.support.v4.content.LocalBroadcastManager;
-import android.support.v4.util.ObjectsCompat;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
+
+import androidx.localbroadcastmanager.content.LocalBroadcastManager;
+import androidx.core.util.ObjectsCompat;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatDelegate;
-import android.text.method.LinkMovementMethod;
+import androidx.appcompat.app.AppCompatDelegate;
+
 import android.util.Log;
-import android.view.View;
 import android.widget.CheckBox;
-import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
-
-import java.util.HashMap;
 import java.util.Locale;
 
 public class SettingsActivity extends MeshengerActivity {

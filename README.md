@@ -1,17 +1,7 @@
-# Meshenger - An Open-Source P2P Messenger
-Development of version 2.0.0 continues on this [repo](https://github.com/meshenger-app/meshenger-android).
+# Uphi-Hybrid - An  hotspot Messenger 
 
+This Android app allows voice- and video communication without any server or Internet access. Simply scan each others contact QR-Code and call each other. This works on most networks such as community networks or even company networks.
 
-This Android app allows voice- and videocommunication without any server or Internet access. Simply scan each others contact QR-Code and call each other. This works on most networks such as community networks or even company networks.
-
-[<img src="https://f-droid.org/badge/get-it-on.png"
-     alt="Get it on F-Droid"
-     height="90">](https://f-droid.org/packages/d.d.meshenger/)
-
-![Contact List](docs/contact_list.png)
-![QR-Code Offer](docs/qr_offer.png)
-![QR-Code Scanner](docs/qr_scanner.png)
-![Manual Contact Exchange](docs/manual_exchange.png)
 
 ## How Does It Work?
 
@@ -27,14 +17,6 @@ WebRTC does not support signaling and authentication. The signaling information 
 
 ## Project Context
 
-This project was sponsored by the [Google Summer of Code](https://summerofcode.withgoogle.com/) 2018 as part of the [Freifunk](https://freifunk.net) organization to make local community networks more attractive.
-
-The development can be followed via the [Freifunk blog](https://blog.freifunk.net):
-
-* [Initial Project Description](https://projects.freifunk.net/#/projects?project=local_phone_app&lang=en)
-* [Meshenger Update 1](https://blog.freifunk.net/2018/06/10/meshenger-p2p-local-network-messenger-update-1/)
-* [Meshenger Update 2](https://blog.freifunk.net/2018/07/07/meshenger-p2p-local-network-messenger-update-2/)
-* [Meshenger final update](https://blog.freifunk.net/2018/08/14/meshenger-p2p-local-network-messenger-final-update/)
 
 ## Ideas/Future Plans
 

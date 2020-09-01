@@ -6,8 +6,8 @@ import android.content.res.Resources;
 import android.graphics.Color;
 import android.os.Handler;
 import android.os.Looper;
-import android.support.annotation.ColorInt;
-import android.support.v7.app.AppCompatDelegate;
+import androidx.annotation.ColorInt;
+import androidx.appcompat.app.AppCompatDelegate;
 import android.util.Log;
 import android.util.TypedValue;
 
@@ -25,7 +25,6 @@ import org.webrtc.PeerConnection;
 import org.webrtc.PeerConnectionFactory;
 import org.webrtc.SessionDescription;
 import org.webrtc.SurfaceViewRenderer;
-import org.webrtc.VideoCapturer;
 import org.webrtc.VideoTrack;
 
 import java.io.BufferedReader;
